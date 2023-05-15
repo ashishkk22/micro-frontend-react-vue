@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - master
-    paths: -'container/**' #only run work flow on change in the container
+    paths:
+      - "container/**" #only run work flow on change in the container
 
 defaults:
   run:
